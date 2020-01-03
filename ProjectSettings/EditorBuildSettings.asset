@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Start-room.unity
-    guid: 6f24c9a671c279847a84a0581a6111e1
+    path: Assets/Scenes/Living Room_Sunnaas.unity
+    guid: edea03b8c862d56439d14ed8b1f7d514
   m_configObjects: {}
