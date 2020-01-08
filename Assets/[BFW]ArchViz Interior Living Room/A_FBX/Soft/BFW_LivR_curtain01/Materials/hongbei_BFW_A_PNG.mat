@@ -75,7 +75,7 @@ Material:
     - _Brightness: 1.2
     - _BumpScale: 0
     - _BumpScale2: 0
-    - _Cutoff: 0.45
+    - _Cutoff: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EmissionValue: 0
@@ -84,7 +84,7 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0.2
     - _Mode: 0
-    - _OcclusionStrength: 0.432
+    - _OcclusionStrength: 1.505
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
