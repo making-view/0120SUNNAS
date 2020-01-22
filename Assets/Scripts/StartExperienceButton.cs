@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class StartExperienceButton : ProgressBarButton
 {
     [SerializeField] public Image progressBarFillImage;
-    [SerializeField] private string attractionVideoFile;
+    [SerializeField] public Text titleBarText;
+    [SerializeField] public string attractionVideoFile;
 
     public void Start()
     {

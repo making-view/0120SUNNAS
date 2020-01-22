@@ -63,8 +63,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 1403fcbed0701b849aa0937594bccbf5, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
@@ -86,7 +84,6 @@ GameObject:
   - component: {fileID: 4192054509313956897}
   - component: {fileID: 1850573775532033178}
   - component: {fileID: 8951775318954730926}
-  - component: {fileID: 366612147371826237}
   - component: {fileID: 4628399542994267361}
   - component: {fileID: 6975759882968362982}
   - component: {fileID: 2585898999261438842}
@@ -143,8 +140,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 1403fcbed0701b849aa0937594bccbf5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -167,22 +162,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progressBarFillImage: {fileID: 7486801558446117221}
+  titleBarText: {fileID: 6940506904468808206}
   attractionVideoFile: Intro.mp4
---- !u!114 &366612147371826237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5096167096723342983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a636e86acd21513489ffcd204dc31fa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  experienceName: {fileID: 6940506904468808206}
-  tableModel: {fileID: 0}
-  lineHeight: 24
 --- !u!65 &4628399542994267361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -552,8 +533,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 742e03afb90dafe458ccf03958c33f0b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -672,8 +651,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0bcaddfb30562654a92cfcf91b80ab24, type: 3}
     m_FontSize: 64
@@ -763,8 +740,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 953af0fbb3f4ff944bb9f4f22f7ef88a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0

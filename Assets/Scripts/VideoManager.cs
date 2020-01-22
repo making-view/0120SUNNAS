@@ -23,7 +23,6 @@ public class VideoManager : MonoBehaviour
     private Camera activeCamera;
     private float preVideoForwardRotation;
     private OVRManager VRCameraManager;
-    private StartRoom startRoom;
 
     private void Awake()
     {
@@ -39,7 +38,6 @@ public class VideoManager : MonoBehaviour
 #endif
 
         VRCameraManager = ovrCameraRig.GetComponent<OVRManager>();
-        startRoom = FindObjectOfType<StartRoom>();
         player.Events.AddListener(OnVideoEvent);
     }
 
@@ -59,6 +57,11 @@ public class VideoManager : MonoBehaviour
         videoPlayerControls.transform.LookAt(activeCamera.transform);
     }
 
+    public string GetActivePath()
+    {
+        return activePath;
+    }
+
     public void PlayVideo(string fileName)
     {
         preVideoForwardRotation = activeCamera.transform.rotation.eulerAngles.y;
@@ -71,9 +74,6 @@ public class VideoManager : MonoBehaviour
         {
             button.Deactivate();
         }
-
-        startRoom.Leave();
-        startRoom.narrationPlayer.Stop();
     }
 
     public void StopVideo()
@@ -86,8 +86,6 @@ public class VideoManager : MonoBehaviour
         ovrCameraRig.trackerAnchor.rotation = Quaternion.Euler(restoredViewDirection);
         VRCameraManager.trackingOriginType = OVRManager.TrackingOrigin.FloorLevel;
         videoPlayerControls.SetActive(false);
-
-        startRoom.Enter();
     }
 
     public void OnVideoEvent(MediaPlayer mp, MediaPlayerEvent.EventType et, ErrorCode errorCode)
